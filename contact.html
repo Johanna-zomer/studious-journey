@@ -24,56 +24,61 @@
             <label for="phone"> Telefoonnummer: </label>
             <input type="tel" id="phone" name="phone" placeholder="0612345678">
         </p>
+        
         <p>
-            <label> Leeftijd: <input type="number" name="number" </label>
+            <label> Ik ben in Vaals op: <input type="date" name="date" </label>
         </p>
-        <p>
-            <label> Geboortedatum: <input type="date" name="date" </label>
-        </p>
-        <p>
-             <label>
-                Gender
-            </label> <br>            
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-        </p>
+             
         <p>
         <label>
-                Favoriete cuisine
+                Ik wil graag meer informatie over:
             </label><br>
-            <input type="checkbox" id="cuisine" name="cuisine" value="Frans">
-            <label for="cuisine"> Frans</label><br>
-            <input type="checkbox" id="cuisine" name="cuisine" value="Frans">
-            <label for="cuisine"> Italiaans </label><br>
-            <input type="checkbox" id="cuisine" name="cuisine" value="Frans">
-            <label for="cuisine"> Spaans</label><br>
-            <input type="checkbox" id="cuisine" name="cuisine" value="Frans">
-            <label for="cuisine"> Arabisch</label><br>
-        </p>
-        <p>
-            <label>
-                Favoriete kleur van schort<br>
-            </label>
-            <label> <input type="color" name="color" </label>
+            <input type="checkbox" id="informatie" name="informatie" value="Historie">
+            <label for="informatie"> Historie Vaals</label><br>
+            <input type="checkbox" id="informatie" name="informatie" value="Natuur">
+            <label for="informatie"> Natuur omgeving Vaals </label><br>
+            <input type="checkbox" id="informatie" name="informatie" value="culinair">
+            <label for="informatie"> Wijnen uit Zuid-Limburg </label><br>
+            <input type="checkbox" id="informatie" name="informatie" value="culinair">
+            <label for="informatie"> Evenementen in en rond Vaals </label><br>
         </p>
 
         <p>
-            <label> Biografie <textarea name="message"></textarea></label>
+            <label>
+                Voorkeur wijn waarover ik informatie wil:
+            </label> <br>            
+            <input type="radio" id="wijn" name="wijn" value="wijn">
+            <label for="rood">Rood</label><br>
+            <input type="radio" id="wijn" name="wijn" value="wijn">
+            <label for="wit">Wit</label><br>
+            <input type="radio" id="wijn" name="wijn" value="wijn">
+            <label for="mousserend">Mousserend</label>      
+        </p>
+
+        <p>
+            <label> Toelichting op je vraag <textarea name="message"></textarea></label>
         </p>
         <p>
             <label for="myfile">Upload een file:</label>
             <input type="file" id="myfile" name="myfile"><br>
         </p>
-        <p>
-            <label for="homepage">Jouw recepten website (url):</label>
-            <input type="url" id="homepage" name="homepage">
-        </p>
+        
         <p>
             <input type="submit" value="Submit">
             <input type="reset">
         </p>
     </form>
+    <footer>
+        <div class="b">Deze site wordt beheerd door:
+            <ul>
+                <li> Hannie Kroes</li>
+                <li> straat</li>
+                <li> postcode en plaats</li>
+                <li> Telefoonnummer 123456789</li>
+            </ul> 
+        </div class="b">
+        
+    </footer>
 
 </body>
+</html>
