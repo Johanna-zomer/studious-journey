@@ -1,13 +1,21 @@
 console.log("Hello Winc Academy");
 let name = "Hannie";
 console.log(name);
-//if kan gebruikt worden bij een block an codes als een bepaalde waarde true is
-console.log(4 + 4);
-console.log("4" + "4")//string optellen gaat niet, string wordt als text ervaren
-console.log(20 + 3);
-console.log(30 - 10);
-console.log(3 * 4);
-console.log(15 / 3);
-console.log(typeof 60);
-console.log(typeof "zestig")
+// You cannot make a variable with the name if
+let sum = 4 + 4;
+console.log("sum:", sum);
+let sumWithStrings = "4" + "4";
+console.log("sum with strings:", sumWithStrings);
+let subtraction = 20 - 3;
+console.log("subtraction:", subtraction);
+let multiplication = 5 * 20;
+console.log("multiplication:", multiplication);
+let division = 12 / 3;
+console.log("division:", division);
+let modulus = 10 % 200;
+console.log("modulus:", modulus);
+let age = 60;
+console.log(typeof age);
+let ageAsString = "60";
+console.log(typeof ageAsString);
 
