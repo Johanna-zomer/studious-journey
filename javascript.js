@@ -11,8 +11,8 @@ if (isFemale){
 } else {
     document.write ("Sorry, dit is een ladies only avond");
 }
-const driverStatus = bob;
-if (driverStatus == bob) {
+const driverStatus = "bob";
+if (driverStatus === "bob") {
     document.write ("Goede reis naar huis");
 } else {
     document.write ("We zullen een taxi voor je bellen");
