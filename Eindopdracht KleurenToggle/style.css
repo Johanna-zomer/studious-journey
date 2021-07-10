@@ -1,0 +1,37 @@
+body {
+    background: cornflowerblue;
+    background: grey, pink, purple, yellow, green;
+}
+
+.nav-main ul {
+    width: 50%;
+    height: 300px;
+    border: 1px solid chocolate;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: arial;
+    transition: all 0.3S ease-in-out
+}
+
+btn.toggle-nav {
+    height: 100%;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.3S ease-in-out
+}
+
+.nav-main ul li a  {
+    text-decoration: none;
+    display:flexbox;
+    line-height: 60px;
+    padding:0 10px;
+    align-content: space-evenly;
+    transition: all 0.3S ease-in-out
+    }
+
+
+img {
+    cursor:pointer;
+}
