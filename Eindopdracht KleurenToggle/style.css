@@ -1,37 +1,62 @@
-body {
-    background: cornflowerblue;
-    background: grey, pink, purple, yellow, green;
-}
 
-.nav-main ul {
-    width: 50%;
-    height: 300px;
-    border: 1px solid chocolate;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    font-family: arial;
-    transition: all 0.3S ease-in-out
-}
-
-btn.toggle-nav {
-    height: 100%;
+ .dropbutton {
+    border: none;
     cursor: pointer;
-    background-size: 100%;
-    background-position: center;
-    transition: all 0.3S ease-in-out
-}
+  }
+  
+ 
+  #menuIcon{
+      width: 60px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .colors-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    overflow: auto;
+    margin-left: -40px;
+    height: 0;
+  }
+  
+  .show {
+    display:block;
+    height: auto;
+  }
 
-.nav-main ul li a  {
+  h1{
+    margin-left: 20%;;
+    margin-top: 15%;
+  }
+
+  h2{
+    margin-left: 20%;
+  }
+  h3{
+    margin-left: 20%;
+  }
+  
+
+ .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
     text-decoration: none;
-    display:flexbox;
-    line-height: 60px;
-    padding:0 10px;
-    align-content: space-evenly;
-    transition: all 0.3S ease-in-out
-    }
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+  }
 
+  .button:hover{
+    height: 2rem;
+    border-style: solid;
+    border-color: black;
+  }
 
-img {
-    cursor:pointer;
-}
+  .colors-content li{
+    list-style: none;
+  }
